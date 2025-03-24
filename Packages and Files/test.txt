@@ -1,0 +1,8 @@
+This is a sample text file.  
+It contains multiple lines of text.  
+Use it to test file information reading in Go.  
+
+This is the appended content.
+This is the appended content.
+This is the appended content.
+This is the appended content.
