@@ -1,0 +1,26 @@
+WAP in python/C++ language to turn ON/OFF buzzer. 
+// Define the buzzer pin 
+const int buzzerPin = 9;  // Connect the piezo buzzer to pin 9 
+// Define the frequency for the "tick" sound (in Hz) 
+const int tickFrequency = 1000;  // Frequency of the tick sound (1000 Hz) 
+// Define the duration for the "tick" sound 
+const int tickDuration =200;  // Duration of each tick sound (in milliseconds) 
+void setup() { 
+// Set the buzzer pin as an output 
+pinMode(buzzerPin, OUTPUT); 
+} 
+OR 
+const int buzzerPin = 9; // Connect the positive pin of the buzzer to pin 
+9 
+void setup() { 
+pinMode(buzzerPin, OUTPUT); 
+} 
+void loop() { 
+tone(buzzerPin, 1000); // Play a 1 kHz tone 
+delay(100);            
+noTone(buzzerPin);     
+delay(900);            
+} 
+// Duration of the tick 
+// Stop the tone 
+// Wait before the next tick
